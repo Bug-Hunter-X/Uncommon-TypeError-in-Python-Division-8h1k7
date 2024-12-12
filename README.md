@@ -1,0 +1,3 @@
+# Uncommon TypeError in Python Division
+
+This repository demonstrates an uncommon error in Python that can occur when using the '/' operator.  The `bug.py` file contains code that attempts to divide an integer by a string, which raises a `TypeError`.  The solution, in `bugSolution.py`, shows how to handle this by adding input validation to ensure both operands are numbers before performing division. This example helps illustrate the importance of type checking when dealing with user input or external data sources to prevent unexpected errors.
